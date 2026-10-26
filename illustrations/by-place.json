@@ -1,0 +1,191 @@
+{
+  "bedroom": [
+    "nai-48ddd81c6a02ffe95305",
+    "nai-a91213eab7ee1795fc9f",
+    "nai-de932345b7f8af9753e6",
+    "nai-8881f31be5b12bb37000",
+    "nai-292d7d0d0e568dc0b824",
+    "nai-4a3996184dc272ebc2f4",
+    "nai-d7212ebd6db79b08a6ed",
+    "nai-140a4bd82488bcb342af",
+    "nai-ea5321571978de74f0e3",
+    "nai-738a64b7b6023bc9b284",
+    "nai-3698476aa963e8c2543a",
+    "nai-6f9a2460096c63b296de",
+    "nai-108b6f636ff551cc0a10",
+    "nai-a7008a119d3eb1a6d52f",
+    "nai-762fe9febf3fdf3b62a4",
+    "nai-5f7481a1e64b0d59993d",
+    "nai-2b8c37fad3bee4cd8579",
+    "nai-30a4b08c5340030dd8ad",
+    "nai-577cb262224e50703a6f",
+    "nai-a6e5fe4e2427b15c988e",
+    "nai-4b70ac5a92414dc6c8e9",
+    "nai-9c68103cdbdca141c763",
+    "nai-1d755e3c38ad8b3ec80b",
+    "nai-e8c5af1a5c357ab59d23",
+    "nai-4d1acd91c57365432937",
+    "nai-abe7cf07abc88ef53431",
+    "nai-eda419b059d51c1bc74b",
+    "nai-df503650dce328e16ae5",
+    "nai-733dd8b62e31f79902e5",
+    "nai-bc1522ee020672179320",
+    "nai-270edf37d0e7c96ac1ce",
+    "nai-4ca5af6c5ddd08509af7",
+    "nai-bcb2e5d2de7b72084b42",
+    "nai-f8db6b89b5678ed9d607"
+  ],
+  "bathroom": [
+    "nai-3a2f0d65c94ce4c2e860",
+    "nai-0b9e69edcd74dd9382a9",
+    "nai-f7bdcef1ddaadc0ffafe",
+    "nai-64c6c3beca719d07d215",
+    "nai-b6d7a58b10c0531f6bf9"
+  ],
+  "kitchen": [
+    "nai-e7733d0b61385c6cbea3",
+    "nai-70e0c11adce205fe4a3b",
+    "nai-8b6b86aa71fc79cc3852",
+    "nai-7994a65f3ba2141d86c9",
+    "nai-f0378f6408c99762b2ac",
+    "nai-a3917652a538d12da1ca",
+    "nai-22b652cefb913377c063",
+    "nai-451754f183d2f40d18e3",
+    "nai-d927b4398c5d0b8102e1",
+    "nai-e3f29b221045e70a6764",
+    "nai-4d85560f0f0ba4b152ba"
+  ],
+  "living_room": [
+    "nai-48c5257ae52930aef782",
+    "nai-0e9feddf3d1f3647ec6d",
+    "nai-aeef311336117b85d319",
+    "nai-22eab1bf141f243531ed",
+    "nai-2aeb7a96afe3deffd4b5",
+    "nai-3f657d58ec5a8eaf1d03",
+    "nai-94e6fc798cdcd486d922",
+    "nai-c844ef244a828cf9648e",
+    "nai-a408cef40391211a6618",
+    "nai-6f0b78e38efecc739e65",
+    "nai-a95f55371a13fdc98566",
+    "nai-38a6fc75d2a5d5cb8b6b",
+    "nai-ff86d6591fe6936ceb72",
+    "nai-ce0cd0e2c530cbd06769",
+    "nai-2287b6c16bf01479636e",
+    "nai-22bedb01cb810fec4b78"
+  ],
+  "study": [
+    "nai-d4dc1cc512a21a787091",
+    "nai-3ef3c36e1e8dbb0e0721",
+    "nai-a543304382f56cadbf14",
+    "nai-d4c9ceb8db06e1df875a",
+    "nai-779432c18fc99071e06b",
+    "nai-e3f95be4aa719a0c6c76"
+  ],
+  "office": [
+    "nai-449fd0c76f679350fdec",
+    "nai-23186d43de3f779d777d",
+    "nai-1379bae0b746874166b6",
+    "nai-7a49de01dd3eb9208ac2",
+    "nai-04c2a9eb7bfcf3880fce"
+  ],
+  "clinic": [
+    "nai-d0afd4b0505e039c612f",
+    "nai-7647bafb0cc8da69b366",
+    "nai-2d7f7d9f7de3214548c0",
+    "nai-d8d3bd9e8207628fcf10",
+    "nai-c86c544145eb87a20918",
+    "nai-9d4e1334568301d3e50d",
+    "nai-e5c0d84ee737489e172b",
+    "nai-2cd7781c8d594d387738",
+    "nai-90342d28ae12b3bb41c3",
+    "nai-19c04fd93d1a8674b94c",
+    "nai-8362e99be8b96d474462",
+    "nai-463b4c8c4d8d79be8fb0",
+    "nai-9834b46959119de80f94"
+  ],
+  "hospital_corridor": [
+    "nai-5e8cd73763a3d11c10df"
+  ],
+  "workroom": [
+    "nai-11a8c192847976cfe948",
+    "nai-bd14a71e55140d4ab973",
+    "nai-52658eaf2f9d4a731db0",
+    "nai-49e68be6e375646ed8e4",
+    "nai-4a5bf0889c5e9c7b6333",
+    "nai-ee90776f74b64fc02f59",
+    "nai-ed35b3217cbab97be6fe",
+    "nai-23cb2dea2bdcbceec818",
+    "nai-265b47864be3117908f6",
+    "nai-81441b24ee4a8db620c9",
+    "nai-ce8283991b83a960e431",
+    "nai-cfaf0a53704621df99c3",
+    "nai-12365d66b3666ac753cb",
+    "nai-6c05fff43bb5064d9671"
+  ],
+  "lecture_hall": [
+    "nai-8b621d61703b59377238"
+  ],
+  "indoor": [
+    "nai-ead2d9e9e40d58cc53e2",
+    "nai-87b96ce5125f829a9021"
+  ],
+  "entryway": [
+    "nai-c814b414e05d959ce12f",
+    "nai-112ebcae10f2b25c7b49",
+    "nai-18bfbd0753ff909ebbcf",
+    "nai-ebe1a0619a85b845bedd",
+    "nai-85dbd2cea1be34683cf2",
+    "nai-52a64f33b323b8e5f6b2"
+  ],
+  "balcony": [
+    "nai-00ff0582d55e73308ee2",
+    "nai-b7894998f878e77531a9",
+    "nai-933a352d656240e3c340",
+    "nai-432de72342a2a41539b3",
+    "nai-b6214f9491b00078cb0e"
+  ],
+  "rooftop": [
+    "nai-23b483a61f526cf9186f"
+  ],
+  "beach": [
+    "nai-8ce30f690a75368057ea",
+    "nai-3d0b068786b288a1562e",
+    "nai-70e056f21f463a3f6529",
+    "nai-82912d2865422c994d1d",
+    "nai-90dbe69fb1a3c7cca796",
+    "nai-957902350b25195a2949",
+    "nai-77c3485b33d9294c5a1c",
+    "nai-f34bb895cf232bb3dbc1",
+    "nai-4a07fdca360413d3dff6"
+  ],
+  "onsen": [
+    "nai-a47c1dafc76a7618bbc2",
+    "nai-85dae71c8fa6e7235bd5",
+    "nai-5781f3c9169f8b86d052",
+    "nai-a468a5c4fcda0c22e0d9",
+    "nai-f6124621033cad5c8297"
+  ],
+  "ryokan": [
+    "nai-9bce85fb40f634b2271c",
+    "nai-586e6a019d0af7d6021f"
+  ],
+  "amusement_park": [
+    "nai-4118057e3f45b4ebbf0f",
+    "nai-5ba324e0b9a2eb776337",
+    "nai-b7a76811264e60086366",
+    "nai-0ae84a9a340d67eff8d3",
+    "nai-9019e6cebf29d3b72edf"
+  ],
+  "library": [
+    "nai-f373916ef28361260d8b"
+  ],
+  "store": [
+    "nai-5f48b4af639a259e91e9"
+  ],
+  "dining_room": [
+    "nai-7d3e4a557d0273d6b870"
+  ],
+  "street": [
+    "nai-3639e79dd1dc7bd67322"
+  ]
+}
