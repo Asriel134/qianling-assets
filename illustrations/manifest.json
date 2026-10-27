@@ -1,14 +1,14 @@
 {
   "schema": "qianling-illustrations/v1",
-  "updated_at": "2026-10-26T21:08:43.935965+08:00",
-  "count": 145,
+  "updated_at": "2026-10-27",
+  "count": 144,
   "base_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/main/illustrations/",
   "fallback": "fallback.svg",
   "by_character": {
     "xian": {
       "name": "云弦",
-      "total": 37,
-      "SFW": 18,
+      "total": 36,
+      "SFW": 17,
       "NSFW": 19
     },
     "ling": {
@@ -31,7 +31,7 @@
     }
   },
   "by_content": {
-    "SFW": 78,
+    "SFW": 77,
     "NSFW": 67
   },
   "assets": [
@@ -5959,60 +5959,6 @@
       "preview": {
         "bytes": 26496,
         "sha256": "29d5b4a2b8edcd7feca88be8c50bfc1e8ce53b4e111e1c4e9f972c99cc88c9b6",
-        "dimensions": [
-          320,
-          468
-        ]
-      }
-    },
-    {
-      "asset_id": "nai-e3f29b221045e70a6764",
-      "record_id": "3264",
-      "character_id": "xian",
-      "character": "云弦",
-      "display_name": "云弦 · 厨房 · 傍晚 · 3264",
-      "image": "images/nai-e3f29b221045e70a6764.webp",
-      "thumbnail": "thumbnails/nai-e3f29b221045e70a6764.webp",
-      "width": 832,
-      "height": 1216,
-      "dimensions": [
-        832,
-        1216
-      ],
-      "aspect_ratio": 0.684211,
-      "content_type": "SFW",
-      "places": [
-        "kitchen"
-      ],
-      "primary_place": "kitchen",
-      "scene_times": [
-        "evening"
-      ],
-      "primary_scene_time": "evening",
-      "scene_features": [
-        "window",
-        "kitchen_counter"
-      ],
-      "map_node_id": null,
-      "story_date": null,
-      "clock_time": null,
-      "usage_slots": [],
-      "crop": null,
-      "classification_status": "coarse-reviewed",
-      "generated_at": null,
-      "source_png_sha256": "e3f29b221045e70a676457cdf4aec23f08a31dbea646667be7263ed4d413c293",
-      "full": {
-        "bytes": 797318,
-        "sha256": "0fe3fdbf6b65cc1dacc2fa77000b857c51d2b6269aaf232ad32974cae993aad6",
-        "dimensions": [
-          832,
-          1216
-        ],
-        "decoded_rgba_sha256": "125cb122fafdc10cad79ad8596371f7fdfd00835f9a5b00920cd4da955e5a3c8"
-      },
-      "preview": {
-        "bytes": 20814,
-        "sha256": "88cd1b613d27abf43630674113c5125552590975e17e15f3b5fe146331f86a32",
         "dimensions": [
           320,
           468

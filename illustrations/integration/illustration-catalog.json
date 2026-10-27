@@ -1,0 +1,5287 @@
+{
+  "schema_version": 1,
+  "status": "approved-user-final-144",
+  "count": 144,
+  "by_character": {
+    "ling": 36,
+    "ning": 36,
+    "sui": 36,
+    "xian": 36
+  },
+  "content_counts": {
+    "SFW": 77,
+    "NSFW": 67
+  },
+  "excluded_asset_ids": [
+    "nai-e3f29b221045e70a6764"
+  ],
+  "action_dictionary": [
+    {
+      "id": "rest",
+      "label": "休息",
+      "triggers": [
+        "休息",
+        "歇着",
+        "躺着",
+        "靠着",
+        "放松",
+        "歇一会儿",
+        "懒洋洋"
+      ]
+    },
+    {
+      "id": "intimacy",
+      "label": "亲密互动",
+      "triggers": [
+        "亲密互动",
+        "亲近互动",
+        "亲近",
+        "依偎",
+        "贴近",
+        "牵手",
+        "拥抱",
+        "撒娇",
+        "温存"
+      ]
+    },
+    {
+      "id": "read",
+      "label": "阅读",
+      "triggers": [
+        "阅读",
+        "看书",
+        "读书",
+        "翻书",
+        "借书",
+        "拿书",
+        "书架前"
+      ]
+    },
+    {
+      "id": "work",
+      "label": "办公",
+      "triggers": [
+        "办公",
+        "工作",
+        "处理文件",
+        "看文件",
+        "签字",
+        "批阅",
+        "整理资料"
+      ]
+    },
+    {
+      "id": "cook",
+      "label": "做饭",
+      "triggers": [
+        "做饭",
+        "烧菜",
+        "炒菜",
+        "下厨",
+        "烹饪",
+        "煮饭",
+        "煮面",
+        "煮夜宵"
+      ]
+    },
+    {
+      "id": "eat",
+      "label": "吃东西",
+      "triggers": [
+        "吃东西",
+        "吃饭",
+        "用餐",
+        "吃早餐",
+        "吃水果",
+        "吃点心",
+        "偷吃"
+      ]
+    },
+    {
+      "id": "drink",
+      "label": "喝饮品",
+      "triggers": [
+        "喝饮品",
+        "喝水",
+        "喝茶",
+        "喝咖啡",
+        "捧杯",
+        "端杯",
+        "饮料"
+      ]
+    },
+    {
+      "id": "bath",
+      "label": "洗浴",
+      "triggers": [
+        "洗浴",
+        "洗澡",
+        "淋浴",
+        "沐浴",
+        "浴后",
+        "裹毛巾"
+      ]
+    },
+    {
+      "id": "onsen",
+      "label": "泡汤",
+      "triggers": [
+        "泡汤",
+        "泡温泉",
+        "温泉",
+        "入浴",
+        "泡澡",
+        "浴池边"
+      ]
+    },
+    {
+      "id": "outing",
+      "label": "出游",
+      "triggers": [
+        "出游",
+        "游玩",
+        "散步",
+        "约会出行",
+        "闲逛",
+        "逛游乐场"
+      ]
+    },
+    {
+      "id": "hair",
+      "label": "整理头发",
+      "triggers": [
+        "整理头发",
+        "扎头发",
+        "梳头",
+        "拢发",
+        "挽发",
+        "拨头发"
+      ]
+    },
+    {
+      "id": "dress",
+      "label": "换衣整理",
+      "triggers": [
+        "换衣整理",
+        "换衣服",
+        "穿衣",
+        "更衣",
+        "整理衣服",
+        "衣柜前"
+      ]
+    },
+    {
+      "id": "groom",
+      "label": "整理仪容",
+      "triggers": [
+        "整理仪容",
+        "梳妆",
+        "戴耳饰",
+        "戴耳环",
+        "整理首饰",
+        "打理自己"
+      ]
+    },
+    {
+      "id": "beach",
+      "label": "海边游玩",
+      "triggers": [
+        "海边游玩",
+        "海边散步",
+        "沙滩",
+        "踩水",
+        "踏浪",
+        "看海",
+        "提鞋走"
+      ]
+    },
+    {
+      "id": "computer",
+      "label": "使用电脑",
+      "triggers": [
+        "使用电脑",
+        "电脑前",
+        "敲键盘",
+        "看屏幕",
+        "操作电脑"
+      ]
+    },
+    {
+      "id": "device",
+      "label": "摆弄设备",
+      "triggers": [
+        "摆弄设备",
+        "修理设备",
+        "修电脑",
+        "拆装",
+        "调试",
+        "摆弄电路板",
+        "修键盘"
+      ]
+    },
+    {
+      "id": "cable",
+      "label": "整理线缆",
+      "triggers": [
+        "整理线缆",
+        "接线",
+        "插线",
+        "整理电线",
+        "接设备"
+      ]
+    },
+    {
+      "id": "phone",
+      "label": "看手机",
+      "triggers": [
+        "看手机",
+        "玩手机",
+        "刷手机",
+        "看消息",
+        "举手机"
+      ]
+    },
+    {
+      "id": "game",
+      "label": "玩游戏",
+      "triggers": [
+        "玩游戏",
+        "打游戏",
+        "拿手柄",
+        "游戏机"
+      ]
+    },
+    {
+      "id": "sleep",
+      "label": "打盹",
+      "triggers": [
+        "打盹",
+        "睡着",
+        "闭眼休息",
+        "困倦",
+        "小睡"
+      ]
+    },
+    {
+      "id": "desk_rest",
+      "label": "伏案休息",
+      "triggers": [
+        "伏案休息",
+        "趴在桌上",
+        "伏案",
+        "工作累了"
+      ]
+    },
+    {
+      "id": "window_rest",
+      "label": "窗边休息",
+      "triggers": [
+        "窗边休息",
+        "倚栏杆",
+        "凭栏",
+        "望窗外",
+        "眺望",
+        "窗边停留"
+      ]
+    },
+    {
+      "id": "seated_rest",
+      "label": "坐着休息",
+      "triggers": [
+        "坐着休息",
+        "坐一会儿",
+        "坐在椅上",
+        "坐在沙发上",
+        "坐下歇脚"
+      ]
+    },
+    {
+      "id": "explain",
+      "label": "讲解",
+      "triggers": [
+        "讲解",
+        "演讲",
+        "授课",
+        "说明会",
+        "讲台",
+        "做报告"
+      ]
+    },
+    {
+      "id": "documents",
+      "label": "查看资料",
+      "triggers": [
+        "查看资料",
+        "看资料",
+        "查看报告",
+        "翻看记录"
+      ]
+    },
+    {
+      "id": "luggage",
+      "label": "收拾行李",
+      "triggers": [
+        "收拾行李",
+        "整理行李",
+        "打包行李",
+        "收拾衣物",
+        "准备出发"
+      ]
+    },
+    {
+      "id": "plant",
+      "label": "照料盆栽",
+      "triggers": [
+        "照料盆栽",
+        "养花",
+        "换盆",
+        "打理盆栽",
+        "照顾植物"
+      ]
+    },
+    {
+      "id": "flowers",
+      "label": "插花",
+      "triggers": [
+        "插花",
+        "修剪花枝",
+        "剪花",
+        "摆弄花束",
+        "整理花瓶"
+      ]
+    },
+    {
+      "id": "letter",
+      "label": "整理信件",
+      "triggers": [
+        "整理信件",
+        "拆信",
+        "看信",
+        "处理信封",
+        "打开信封"
+      ]
+    },
+    {
+      "id": "coffee",
+      "label": "冲咖啡",
+      "triggers": [
+        "冲咖啡",
+        "煮咖啡",
+        "手冲",
+        "倒咖啡",
+        "准备咖啡"
+      ]
+    },
+    {
+      "id": "tie",
+      "label": "整理领带",
+      "triggers": [
+        "整理领带",
+        "系领带",
+        "帮忙打领带",
+        "理衣领"
+      ]
+    },
+    {
+      "id": "dishes",
+      "label": "洗碗",
+      "triggers": [
+        "洗碗",
+        "刷碗",
+        "洗盘子",
+        "清洗餐具",
+        "收拾碗碟"
+      ]
+    },
+    {
+      "id": "fruit",
+      "label": "削水果",
+      "triggers": [
+        "削水果",
+        "削苹果",
+        "准备水果",
+        "切水果"
+      ]
+    },
+    {
+      "id": "toy",
+      "label": "挑玩偶",
+      "triggers": [
+        "挑玩偶",
+        "拿玩偶",
+        "看玩偶",
+        "玩偶摊",
+        "挑礼物"
+      ]
+    },
+    {
+      "id": "shoelaces",
+      "label": "系鞋带",
+      "triggers": [
+        "系鞋带",
+        "穿鞋",
+        "整理鞋子",
+        "出门准备"
+      ]
+    },
+    {
+      "id": "laundry",
+      "label": "晾衣服",
+      "triggers": [
+        "晾衣服",
+        "晒衣服",
+        "挂衣服",
+        "晾晒",
+        "收拾衣物"
+      ]
+    },
+    {
+      "id": "parcel",
+      "label": "拆包裹",
+      "triggers": [
+        "拆包裹",
+        "拆快递",
+        "打开包裹",
+        "拆礼物"
+      ]
+    },
+    {
+      "id": "shell",
+      "label": "捡贝壳",
+      "triggers": [
+        "捡贝壳",
+        "拾贝",
+        "看贝壳",
+        "海边寻物"
+      ]
+    },
+    {
+      "id": "stretch",
+      "label": "伸懒腰",
+      "triggers": [
+        "伸懒腰",
+        "伸展",
+        "舒展身体",
+        "起床伸展"
+      ]
+    },
+    {
+      "id": "door",
+      "label": "门边停留",
+      "triggers": [
+        "门边停留",
+        "门口回头",
+        "站在门口",
+        "扶着门",
+        "准备出门"
+      ]
+    },
+    {
+      "id": "walk_eat",
+      "label": "边逛边吃",
+      "triggers": [
+        "边逛边吃",
+        "吃冰淇淋",
+        "吃棉花糖",
+        "逛摊位"
+      ]
+    },
+    {
+      "id": "daily",
+      "label": "日常停留",
+      "triggers": [
+        "日常停留",
+        "待着",
+        "日常相处",
+        "稍作停留"
+      ]
+    }
+  ],
+  "area_dictionary": [
+    {
+      "id": "home",
+      "label": "澄园",
+      "source_uid": 606317
+    },
+    {
+      "id": "headquarters",
+      "label": "云氏产业总部",
+      "source_uid": 2199030
+    },
+    {
+      "id": "medical",
+      "label": "澄心行为医学中心",
+      "source_uid": 2199031
+    },
+    {
+      "id": "technology",
+      "label": "云氏交互技术中心",
+      "source_uid": 2199032
+    },
+    {
+      "id": "foundation",
+      "label": "云氏文化基金会·临川中心",
+      "source_uid": 2199033
+    },
+    {
+      "id": "university",
+      "label": "临川大学",
+      "source_uid": 2199034
+    },
+    {
+      "id": "inn",
+      "label": "温泉旅馆",
+      "source_uid": 2199050
+    },
+    {
+      "id": "coast",
+      "label": "近郊沙滩",
+      "source_uid": 2199051
+    },
+    {
+      "id": "amusement_park",
+      "label": "游乐场",
+      "source_uid": 2199060
+    },
+    {
+      "id": "external",
+      "label": "其他城市／外部地点",
+      "source_uid": null
+    },
+    {
+      "id": "custom",
+      "label": "自己填写",
+      "source_uid": null
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "nai-5e8cd73763a3d11c10df",
+      "record_id": "1146",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical",
+        "university"
+      ],
+      "areas": [
+        "澄心行为医学中心",
+        "临川大学"
+      ],
+      "action_tags": [
+        "work"
+      ],
+      "actions": [
+        "办公"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-5e8cd73763a3d11c10df.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-5e8cd73763a3d11c10df.webp",
+      "sha256": "e5c7ee497a6fa21de64a18116d09ce77e92dddff74f033a6664cf04638e1eeda",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-5e8cd73763a3d11c10df.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-5e8cd73763a3d11c10df.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-d0afd4b0505e039c612f",
+      "record_id": "1799",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical",
+        "university"
+      ],
+      "areas": [
+        "澄心行为医学中心",
+        "临川大学"
+      ],
+      "action_tags": [
+        "work"
+      ],
+      "actions": [
+        "办公"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-d0afd4b0505e039c612f.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-d0afd4b0505e039c612f.webp",
+      "sha256": "e70087a76a9537a28cd4c5edb40d3676b8858066932e3a2502e8e06a86b238ad",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-d0afd4b0505e039c612f.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-d0afd4b0505e039c612f.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-7647bafb0cc8da69b366",
+      "record_id": "1842",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical",
+        "university"
+      ],
+      "areas": [
+        "澄心行为医学中心",
+        "临川大学"
+      ],
+      "action_tags": [
+        "work"
+      ],
+      "actions": [
+        "办公"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-7647bafb0cc8da69b366.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-7647bafb0cc8da69b366.webp",
+      "sha256": "1073dc5d137f534009eabd2ac28b82fabfff4be20ac06be493121c183a87a97c",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-7647bafb0cc8da69b366.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-7647bafb0cc8da69b366.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-48ddd81c6a02ffe95305",
+      "record_id": "ling-after-nsfw-20261022-v2",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云绫卧室",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-48ddd81c6a02ffe95305.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-48ddd81c6a02ffe95305.webp",
+      "sha256": "29f967969eaa43fda9e7c4723e91c75ca8614e838ec44cfc897a5a73f357fac6",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-48ddd81c6a02ffe95305.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-48ddd81c6a02ffe95305.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-a91213eab7ee1795fc9f",
+      "record_id": "ling-after-nsfw-20261022-v3",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云绫卧室",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-a91213eab7ee1795fc9f.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-a91213eab7ee1795fc9f.webp",
+      "sha256": "37aadba4707df72278b39ddc9f31576b825d57216aa906c209c1d74ed047a673",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-a91213eab7ee1795fc9f.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-a91213eab7ee1795fc9f.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-3a2f0d65c94ce4c2e860",
+      "record_id": "ling-bath-nsfw-20261026-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "bath",
+        "intimacy"
+      ],
+      "actions": [
+        "洗浴",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-3a2f0d65c94ce4c2e860.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-3a2f0d65c94ce4c2e860.webp",
+      "sha256": "1b79b02064af4b7c6e447d2e96eb2fc99d6d389bf8fbaf0174e14192e8a60702",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-3a2f0d65c94ce4c2e860.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-3a2f0d65c94ce4c2e860.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-2d7f7d9f7de3214548c0",
+      "record_id": "ling-chair-20261021-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical"
+      ],
+      "areas": [
+        "澄心行为医学中心"
+      ],
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-2d7f7d9f7de3214548c0.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-2d7f7d9f7de3214548c0.webp",
+      "sha256": "151cde3c016f04c9d3cfb39757a11271ab17ae9d7ba1c900da3945b7bb4bda4a",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-2d7f7d9f7de3214548c0.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-2d7f7d9f7de3214548c0.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-d8d3bd9e8207628fcf10",
+      "record_id": "ling-clinic-nsfw-20261022-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical"
+      ],
+      "areas": [
+        "澄心行为医学中心"
+      ],
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-d8d3bd9e8207628fcf10.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-d8d3bd9e8207628fcf10.webp",
+      "sha256": "e4d816cde7ec17f253082c4b61cd2007b91375d6a581e23072540a8b0164e9e1",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-d8d3bd9e8207628fcf10.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-d8d3bd9e8207628fcf10.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-e7733d0b61385c6cbea3",
+      "record_id": "ling-cook-20261022-v2",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "cook"
+      ],
+      "actions": [
+        "做饭"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-e7733d0b61385c6cbea3.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-e7733d0b61385c6cbea3.webp",
+      "sha256": "81eb7bc13a18290677b2c9ecef4b6efed78da9ced8a505098fcb782385bc2ae9",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-e7733d0b61385c6cbea3.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-e7733d0b61385c6cbea3.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-c86c544145eb87a20918",
+      "record_id": "ling-count-nsfw-20261022-v3",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical"
+      ],
+      "areas": [
+        "澄心行为医学中心"
+      ],
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-c86c544145eb87a20918.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-c86c544145eb87a20918.webp",
+      "sha256": "ec70b98c9e092bd9c64c5be2f18deb8a6561b7df3bd4158ac766014a05d2fe62",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-c86c544145eb87a20918.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-c86c544145eb87a20918.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-9d4e1334568301d3e50d",
+      "record_id": "ling-desk-20261021-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "external",
+        "headquarters"
+      ],
+      "areas": [
+        "其他城市／外部地点",
+        "云氏产业总部"
+      ],
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-9d4e1334568301d3e50d.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-9d4e1334568301d3e50d.webp",
+      "sha256": "6fecff2fb96231591b67104e0f3e459eb8d9718abe5c0d21bbc5cacd3ba7b4d2",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-9d4e1334568301d3e50d.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-9d4e1334568301d3e50d.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-de932345b7f8af9753e6",
+      "record_id": "ling-dresser-20261021-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云绫卧室",
+      "action_tags": [
+        "hair"
+      ],
+      "actions": [
+        "整理头发"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-de932345b7f8af9753e6.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-de932345b7f8af9753e6.webp",
+      "sha256": "4b8e3ea8f5858b13ee75d00c6a6a041c8b300dfe0740b06e564c99a10446669f",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-de932345b7f8af9753e6.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-de932345b7f8af9753e6.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-e5c0d84ee737489e172b",
+      "record_id": "ling-explicit-nsfw-20261026-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-e5c0d84ee737489e172b.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-e5c0d84ee737489e172b.webp",
+      "sha256": "dd827eba7335849578cf71af216a43dd797cdac1b7bbbb61e0761b5efe555ccd",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-e5c0d84ee737489e172b.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-e5c0d84ee737489e172b.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-2cd7781c8d594d387738",
+      "record_id": "ling-film-20261022-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical",
+        "university"
+      ],
+      "areas": [
+        "澄心行为医学中心",
+        "临川大学"
+      ],
+      "action_tags": [
+        "documents"
+      ],
+      "actions": [
+        "查看资料"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-2cd7781c8d594d387738.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-2cd7781c8d594d387738.webp",
+      "sha256": "47305c263b38338f5d7fead8d336dae94d87c7bcd63bc8759eef2b65189c3e21",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-2cd7781c8d594d387738.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-2cd7781c8d594d387738.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-8ce30f690a75368057ea",
+      "record_id": "ling-gaze-20261023-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "coast"
+      ],
+      "areas": [
+        "近郊沙滩"
+      ],
+      "action_tags": [
+        "beach"
+      ],
+      "actions": [
+        "海边游玩"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-8ce30f690a75368057ea.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-8ce30f690a75368057ea.webp",
+      "sha256": "21c87ef239b7e758417f54f3d1c77d37c4fca8fcd8918fb8810edacc1b2a61fc",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-8ce30f690a75368057ea.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-8ce30f690a75368057ea.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-90342d28ae12b3bb41c3",
+      "record_id": "ling-glasses-off-20261026-v2",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical"
+      ],
+      "areas": [
+        "澄心行为医学中心"
+      ],
+      "action_tags": [
+        "seated_rest"
+      ],
+      "actions": [
+        "坐着休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-90342d28ae12b3bb41c3.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-90342d28ae12b3bb41c3.webp",
+      "sha256": "138d061a66c51717a88a2aef00616b8ba309d59cc5baeafdc0d5248d9b5c4eae",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-90342d28ae12b3bb41c3.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-90342d28ae12b3bb41c3.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-19c04fd93d1a8674b94c",
+      "record_id": "ling-gloss-nsfw-20261023-v2",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical"
+      ],
+      "areas": [
+        "澄心行为医学中心"
+      ],
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-19c04fd93d1a8674b94c.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-19c04fd93d1a8674b94c.webp",
+      "sha256": "88a487cbbde035212a53c14ab6f9e2d07e8af548a28a699f85c9fee4e2adb7f5",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-19c04fd93d1a8674b94c.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-19c04fd93d1a8674b94c.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-8881f31be5b12bb37000",
+      "record_id": "ling-handback-nsfw-20261022-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云绫卧室",
+      "action_tags": [
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-8881f31be5b12bb37000.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-8881f31be5b12bb37000.webp",
+      "sha256": "3726231d680c704d95a49af3791dff59e2c11a94d3681342107ff290e457687a",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-8881f31be5b12bb37000.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-8881f31be5b12bb37000.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-48c5257ae52930aef782",
+      "record_id": "ling-home-20261021-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "seated_rest"
+      ],
+      "actions": [
+        "坐着休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-48c5257ae52930aef782.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-48c5257ae52930aef782.webp",
+      "sha256": "242423cfae6f219dc5d24d45ef19e2c91b08d852116d94539fdc6d34c81c2d5c",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-48c5257ae52930aef782.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-48c5257ae52930aef782.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-292d7d0d0e568dc0b824",
+      "record_id": "ling-invite-nsfw-20261026-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云绫卧室",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-292d7d0d0e568dc0b824.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-292d7d0d0e568dc0b824.webp",
+      "sha256": "c30eeb360ea00d480622072144c60e62602b45fff99e9a3d31b0b7029a8111cb",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-292d7d0d0e568dc0b824.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-292d7d0d0e568dc0b824.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-70e0c11adce205fe4a3b",
+      "record_id": "ling-kitchen-20261021-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "drink"
+      ],
+      "actions": [
+        "喝饮品"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-70e0c11adce205fe4a3b.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-70e0c11adce205fe4a3b.webp",
+      "sha256": "1dcc43ce3e1826d00bc6e185de68998c4cdb4a1c60a8adbca4d1ef27dc74679b",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-70e0c11adce205fe4a3b.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-70e0c11adce205fe4a3b.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-4a3996184dc272ebc2f4",
+      "record_id": "ling-morning-nsfw-20261026-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云绫卧室",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-4a3996184dc272ebc2f4.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-4a3996184dc272ebc2f4.webp",
+      "sha256": "84dbd81b2c8ab00afe2d7def43dd50c697c8fc1ad4dff5c87b63f74cf7983379",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-4a3996184dc272ebc2f4.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-4a3996184dc272ebc2f4.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-8b6b86aa71fc79cc3852",
+      "record_id": "ling-night-20261022-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "cook"
+      ],
+      "actions": [
+        "做饭"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-8b6b86aa71fc79cc3852.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-8b6b86aa71fc79cc3852.webp",
+      "sha256": "838ba6eb768c73195fd0fce3878340e900efe0dc7bbe9f0dca3d51956690415f",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-8b6b86aa71fc79cc3852.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-8b6b86aa71fc79cc3852.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-8362e99be8b96d474462",
+      "record_id": "ling-noon-nsfw-20261022-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical"
+      ],
+      "areas": [
+        "澄心行为医学中心"
+      ],
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-8362e99be8b96d474462.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-8362e99be8b96d474462.webp",
+      "sha256": "9fa8f92333595a07100df070acc280e90ee7e9a44c80522065029051b78f01f9",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-8362e99be8b96d474462.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-8362e99be8b96d474462.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-a47c1dafc76a7618bbc2",
+      "record_id": "ling-onsen-nsfw-20261023-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "inn"
+      ],
+      "areas": [
+        "温泉旅馆"
+      ],
+      "action_tags": [
+        "onsen",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "泡汤",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-a47c1dafc76a7618bbc2.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-a47c1dafc76a7618bbc2.webp",
+      "sha256": "53993e9c7bb8b38b801097c459910fe43fff8ae8bfecafa8e8a7ea08d52bd5bd",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-a47c1dafc76a7618bbc2.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-a47c1dafc76a7618bbc2.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-85dae71c8fa6e7235bd5",
+      "record_id": "ling-onsen-nsfw-20261023-v2",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "inn"
+      ],
+      "areas": [
+        "温泉旅馆"
+      ],
+      "action_tags": [
+        "onsen",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "泡汤",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-85dae71c8fa6e7235bd5.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-85dae71c8fa6e7235bd5.webp",
+      "sha256": "265cae866c821c5d9b51b36fe2429fc9409ead5c10e3b4d9b71b9819ec6807b0",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-85dae71c8fa6e7235bd5.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-85dae71c8fa6e7235bd5.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-4118057e3f45b4ebbf0f",
+      "record_id": "ling-park-20261023-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "amusement_park"
+      ],
+      "areas": [
+        "游乐场"
+      ],
+      "action_tags": [
+        "walk_eat",
+        "outing"
+      ],
+      "actions": [
+        "边逛边吃",
+        "出游"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-4118057e3f45b4ebbf0f.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-4118057e3f45b4ebbf0f.webp",
+      "sha256": "4e6c1edf4e4d078265fa8b9b4d781ee8cb94f5eb50a7fbcc8b58ed92a260bf4a",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-4118057e3f45b4ebbf0f.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-4118057e3f45b4ebbf0f.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-8b621d61703b59377238",
+      "record_id": "ling-podium-20261024-v4",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical",
+        "university"
+      ],
+      "areas": [
+        "澄心行为医学中心",
+        "临川大学"
+      ],
+      "action_tags": [
+        "explain"
+      ],
+      "actions": [
+        "讲解"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-8b621d61703b59377238.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-8b621d61703b59377238.webp",
+      "sha256": "4d0a63c22d1176a453db2337470372cb316aa00e7164b05d4709c3d764793cf2",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-8b621d61703b59377238.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-8b621d61703b59377238.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-00ff0582d55e73308ee2",
+      "record_id": "ling-railing-20261023-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "window_rest"
+      ],
+      "actions": [
+        "窗边休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-00ff0582d55e73308ee2.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-00ff0582d55e73308ee2.webp",
+      "sha256": "ac0d1dbdbd6ae859b53111d62f7c1bbd56a7a937615792c57f98303557cf1956",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-00ff0582d55e73308ee2.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-00ff0582d55e73308ee2.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-b7894998f878e77531a9",
+      "record_id": "ling-repot-20261023-v2",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "plant"
+      ],
+      "actions": [
+        "照料盆栽"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-b7894998f878e77531a9.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-b7894998f878e77531a9.webp",
+      "sha256": "4569ddd0256051f3aa7972948f896c80ffa835fa3759365a601e56dce83a98f2",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-b7894998f878e77531a9.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-b7894998f878e77531a9.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-3d0b068786b288a1562e",
+      "record_id": "ling-sea-20261023-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "coast"
+      ],
+      "areas": [
+        "近郊沙滩"
+      ],
+      "action_tags": [
+        "beach"
+      ],
+      "actions": [
+        "海边游玩"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-3d0b068786b288a1562e.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-3d0b068786b288a1562e.webp",
+      "sha256": "241bbd7edeb96dcc37d093453aa70e25e4c9d3acd6a666412765e384597afa4d",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-3d0b068786b288a1562e.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-3d0b068786b288a1562e.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-d4dc1cc512a21a787091",
+      "record_id": "ling-shelf-20261022-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home",
+        "foundation"
+      ],
+      "areas": [
+        "澄园",
+        "云氏文化基金会·临川中心"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "read"
+      ],
+      "actions": [
+        "阅读"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-d4dc1cc512a21a787091.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-d4dc1cc512a21a787091.webp",
+      "sha256": "060c4d5d83df3a8855c10e18dd16049678d022a0e7d6b0928d73271d0e49ea2b",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-d4dc1cc512a21a787091.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-d4dc1cc512a21a787091.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-d7212ebd6db79b08a6ed",
+      "record_id": "ling-suitcase-20261022-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "inn",
+        "home"
+      ],
+      "areas": [
+        "温泉旅馆",
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "luggage"
+      ],
+      "actions": [
+        "收拾行李"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-d7212ebd6db79b08a6ed.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-d7212ebd6db79b08a6ed.webp",
+      "sha256": "8d7a53597e932342764663fb51e275cfb20898f14cc8d3ec9a6133dab27f23e8",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-d7212ebd6db79b08a6ed.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-d7212ebd6db79b08a6ed.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-463b4c8c4d8d79be8fb0",
+      "record_id": "ling-table-nsfw-20261025-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical"
+      ],
+      "areas": [
+        "澄心行为医学中心"
+      ],
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-463b4c8c4d8d79be8fb0.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-463b4c8c4d8d79be8fb0.webp",
+      "sha256": "2e6a0c701f66c98f4d0623066351b4036d937f8849e9cbdfebae51c7bd6f0bcd",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-463b4c8c4d8d79be8fb0.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-463b4c8c4d8d79be8fb0.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-0e9feddf3d1f3647ec6d",
+      "record_id": "ling-tired-20261023-v1",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "seated_rest",
+        "rest"
+      ],
+      "actions": [
+        "坐着休息",
+        "休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-0e9feddf3d1f3647ec6d.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-0e9feddf3d1f3647ec6d.webp",
+      "sha256": "0f540e3c19637a3c1cea3edd65ef448173591f5630e5eea1298bc7b51e5092b4",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-0e9feddf3d1f3647ec6d.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-0e9feddf3d1f3647ec6d.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-9834b46959119de80f94",
+      "record_id": "ling-wake-20261025-verify-v2",
+      "character_id": "ling",
+      "character": "云绫",
+      "area_ids": [
+        "medical",
+        "university"
+      ],
+      "areas": [
+        "澄心行为医学中心",
+        "临川大学"
+      ],
+      "action_tags": [
+        "desk_rest"
+      ],
+      "actions": [
+        "伏案休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-9834b46959119de80f94.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-9834b46959119de80f94.webp",
+      "sha256": "c0e1e59fed6541c2b28cd7a9a4b0310b3e388216956d7ee8b6c88d64e82c8a6d",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-9834b46959119de80f94.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-9834b46959119de80f94.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-449fd0c76f679350fdec",
+      "record_id": "1196",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "headquarters",
+        "home",
+        "foundation"
+      ],
+      "areas": [
+        "云氏产业总部",
+        "澄园",
+        "云氏文化基金会·临川中心"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "work"
+      ],
+      "actions": [
+        "办公"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-449fd0c76f679350fdec.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-449fd0c76f679350fdec.webp",
+      "sha256": "5f3883a9491b1c4f12590d7d9dcde779698257fff272df56af7716e2d8ceeea1",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-449fd0c76f679350fdec.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-449fd0c76f679350fdec.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-23186d43de3f779d777d",
+      "record_id": "1415",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "headquarters",
+        "home",
+        "foundation"
+      ],
+      "areas": [
+        "云氏产业总部",
+        "澄园",
+        "云氏文化基金会·临川中心"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "work"
+      ],
+      "actions": [
+        "办公"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-23186d43de3f779d777d.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-23186d43de3f779d777d.webp",
+      "sha256": "0c806df28b5ae5bfce84f034e09d5a280ee8b41e75a86c9262db2818765b42b7",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-23186d43de3f779d777d.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-23186d43de3f779d777d.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-1379bae0b746874166b6",
+      "record_id": "1732",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "headquarters",
+        "home",
+        "foundation"
+      ],
+      "areas": [
+        "云氏产业总部",
+        "澄园",
+        "云氏文化基金会·临川中心"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "work"
+      ],
+      "actions": [
+        "办公"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-1379bae0b746874166b6.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-1379bae0b746874166b6.webp",
+      "sha256": "971849fd0f0038d70bab51a50c075358651c1f3d28773f68b1bc503eede1c4da",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-1379bae0b746874166b6.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-1379bae0b746874166b6.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-140a4bd82488bcb342af",
+      "record_id": "ning-aftermath-nsfw-20261026-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云岁宁卧室",
+      "action_tags": [
+        "drink",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "喝饮品",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-140a4bd82488bcb342af.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-140a4bd82488bcb342af.webp",
+      "sha256": "457ba648ddf0deb0883ae3cd6c2ae79280c512d8cb141a078a8602ceb1e83dfe",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-140a4bd82488bcb342af.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-140a4bd82488bcb342af.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-7994a65f3ba2141d86c9",
+      "record_id": "ning-apron-nsfw-20261026-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "daily",
+        "intimacy"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-7994a65f3ba2141d86c9.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-7994a65f3ba2141d86c9.webp",
+      "sha256": "50150165f36ead238e632b933caf03391f8422ba1164c261625a9737f07f18c2",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-7994a65f3ba2141d86c9.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-7994a65f3ba2141d86c9.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-ea5321571978de74f0e3",
+      "record_id": "ning-back-nsfw-20261023-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云岁宁卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-ea5321571978de74f0e3.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-ea5321571978de74f0e3.webp",
+      "sha256": "96058ecd85737df19d758f4ca9dd3d3a3da3ddb8b45d410036f53b63a9313520",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-ea5321571978de74f0e3.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-ea5321571978de74f0e3.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-933a352d656240e3c340",
+      "record_id": "ning-balcony-shirt-nsfw-20261026-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "external",
+        "headquarters"
+      ],
+      "areas": [
+        "其他城市／外部地点",
+        "云氏产业总部"
+      ],
+      "action_tags": [
+        "drink",
+        "intimacy"
+      ],
+      "actions": [
+        "喝饮品",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-933a352d656240e3c340.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-933a352d656240e3c340.webp",
+      "sha256": "fe6a60e26cf951d6a1cc63371b6ef688309e2694975170a62c6b59440b0990e6",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-933a352d656240e3c340.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-933a352d656240e3c340.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-0b9e69edcd74dd9382a9",
+      "record_id": "ning-bare-nsfw-20261022-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "bath",
+        "intimacy"
+      ],
+      "actions": [
+        "洗浴",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-0b9e69edcd74dd9382a9.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-0b9e69edcd74dd9382a9.webp",
+      "sha256": "37c4eca666c5047d4474a93ddb7e63841dc6e04e079fb6a2b5d35fd3567e3a88",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-0b9e69edcd74dd9382a9.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-0b9e69edcd74dd9382a9.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-70e056f21f463a3f6529",
+      "record_id": "ning-beach-20261023-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "coast"
+      ],
+      "areas": [
+        "近郊沙滩"
+      ],
+      "action_tags": [
+        "beach"
+      ],
+      "actions": [
+        "海边游玩"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-70e056f21f463a3f6529.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-70e056f21f463a3f6529.webp",
+      "sha256": "def7c9749bf2132738b4cb3dc70b090add072e467b1183e31d1822ec192a4d39",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-70e056f21f463a3f6529.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-70e056f21f463a3f6529.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-738a64b7b6023bc9b284",
+      "record_id": "ning-bedroom-20261021-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云岁宁卧室",
+      "action_tags": [
+        "read"
+      ],
+      "actions": [
+        "阅读"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-738a64b7b6023bc9b284.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-738a64b7b6023bc9b284.webp",
+      "sha256": "c9d4b6925f30f49822fea5a06c31674c54f6643d05b93218b6768cf4df846c59",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-738a64b7b6023bc9b284.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-738a64b7b6023bc9b284.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-82912d2865422c994d1d",
+      "record_id": "ning-bikini-20261023-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "coast"
+      ],
+      "areas": [
+        "近郊沙滩"
+      ],
+      "action_tags": [
+        "beach"
+      ],
+      "actions": [
+        "海边游玩"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-82912d2865422c994d1d.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-82912d2865422c994d1d.webp",
+      "sha256": "54507d4967fa32b8e6a1ec4c6fde29d4f95abe52d04326585e19ab327b1d5683",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-82912d2865422c994d1d.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-82912d2865422c994d1d.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-f0378f6408c99762b2ac",
+      "record_id": "ning-coffee-20261022-extra-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "coffee"
+      ],
+      "actions": [
+        "冲咖啡"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-f0378f6408c99762b2ac.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-f0378f6408c99762b2ac.webp",
+      "sha256": "1fc1f44b0af2a2f7907e3656d1d65bcd1e9bb047126099c2aaead003b1db3ab9",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-f0378f6408c99762b2ac.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-f0378f6408c99762b2ac.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-3ef3c36e1e8dbb0e0721",
+      "record_id": "ning-desk-nsfw-20261022-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "headquarters",
+        "home",
+        "foundation"
+      ],
+      "areas": [
+        "云氏产业总部",
+        "澄园",
+        "云氏文化基金会·临川中心"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "work",
+        "intimacy"
+      ],
+      "actions": [
+        "办公",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-3ef3c36e1e8dbb0e0721.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-3ef3c36e1e8dbb0e0721.webp",
+      "sha256": "de9b0117bb77016f120716e398edc6bbb167b55715a20c82a55c09a7d7211fc7",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-3ef3c36e1e8dbb0e0721.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-3ef3c36e1e8dbb0e0721.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-aeef311336117b85d319",
+      "record_id": "ning-flower-nsfw-20261022-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "flowers",
+        "intimacy"
+      ],
+      "actions": [
+        "插花",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-aeef311336117b85d319.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-aeef311336117b85d319.webp",
+      "sha256": "6c1c36822ffe8c7fbf1c78ad3ffeded44bc2ae4af3cda491129ca3d97a0bc7e8",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-aeef311336117b85d319.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-aeef311336117b85d319.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-22eab1bf141f243531ed",
+      "record_id": "ning-flowers-20261023-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "flowers"
+      ],
+      "actions": [
+        "插花"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-22eab1bf141f243531ed.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-22eab1bf141f243531ed.webp",
+      "sha256": "f00574fc623a4d8a39c83d8aaca77bea4176121cceb3c9f6cfb67039c5a26967",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-22eab1bf141f243531ed.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-22eab1bf141f243531ed.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-3698476aa963e8c2543a",
+      "record_id": "ning-gloss-nsfw-20261023-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云岁宁卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-3698476aa963e8c2543a.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-3698476aa963e8c2543a.webp",
+      "sha256": "bcffa1d6b755f18cf9a8438147e3f3e39808cad74323b932a297f698873ffefe",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-3698476aa963e8c2543a.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-3698476aa963e8c2543a.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-6f9a2460096c63b296de",
+      "record_id": "ning-hairpin-nsfw-20261026-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云岁宁卧室",
+      "action_tags": [
+        "hair",
+        "intimacy"
+      ],
+      "actions": [
+        "整理头发",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-6f9a2460096c63b296de.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-6f9a2460096c63b296de.webp",
+      "sha256": "2cf734b562e254c496ba0fc709642e79be808a49c972fec899bb4473f1c15492",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-6f9a2460096c63b296de.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-6f9a2460096c63b296de.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-108b6f636ff551cc0a10",
+      "record_id": "ning-invite-nsfw-20261026-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云岁宁卧室",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-108b6f636ff551cc0a10.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-108b6f636ff551cc0a10.webp",
+      "sha256": "7c7de83eec6467103b7cb21e1ec9cded314df33d1bcba15cf6af438b0f2bcca8",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-108b6f636ff551cc0a10.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-108b6f636ff551cc0a10.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-a543304382f56cadbf14",
+      "record_id": "ning-kisshand-nsfw-20261022-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "foundation"
+      ],
+      "areas": [
+        "澄园",
+        "云氏文化基金会·临川中心"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "intimacy"
+      ],
+      "actions": [
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-a543304382f56cadbf14.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-a543304382f56cadbf14.webp",
+      "sha256": "1cab6c39a79c5822a5c893260f9c160139eb43694848b07fefd18cb29f24b9d0",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-a543304382f56cadbf14.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-a543304382f56cadbf14.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-a7008a119d3eb1a6d52f",
+      "record_id": "ning-lean-nsfw-20261022-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "daily",
+        "intimacy"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-a7008a119d3eb1a6d52f.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-a7008a119d3eb1a6d52f.webp",
+      "sha256": "12339d6add12aa134094e8d3a212388d5afbb1782d364cf4476e2e7963d77c03",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-a7008a119d3eb1a6d52f.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-a7008a119d3eb1a6d52f.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-d4c9ceb8db06e1df875a",
+      "record_id": "ning-letter-20261023-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "headquarters",
+        "home",
+        "foundation"
+      ],
+      "areas": [
+        "云氏产业总部",
+        "澄园",
+        "云氏文化基金会·临川中心"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "letter"
+      ],
+      "actions": [
+        "整理信件"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-d4c9ceb8db06e1df875a.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-d4c9ceb8db06e1df875a.webp",
+      "sha256": "e6b718d370e5e67d2ec0af1f1460e40f92210cbe92bbd8ebce3ce36aed1f5118",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-d4c9ceb8db06e1df875a.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-d4c9ceb8db06e1df875a.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-762fe9febf3fdf3b62a4",
+      "record_id": "ning-mature-nsfw-20261024-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云岁宁卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-762fe9febf3fdf3b62a4.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-762fe9febf3fdf3b62a4.webp",
+      "sha256": "616dc53685dfab0596a05703c91c96587d6f3763dccf71dd9e70793a7f527203",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-762fe9febf3fdf3b62a4.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-762fe9febf3fdf3b62a4.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-5f7481a1e64b0d59993d",
+      "record_id": "ning-nsfw-20261021-v2",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云岁宁卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-5f7481a1e64b0d59993d.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-5f7481a1e64b0d59993d.webp",
+      "sha256": "3dd10a36e651271880c5cb988e6e62913f4cc0bf9fa06cc0e4ec1285456a4df8",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-5f7481a1e64b0d59993d.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-5f7481a1e64b0d59993d.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-7a49de01dd3eb9208ac2",
+      "record_id": "ning-office-20261021-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "headquarters",
+        "home",
+        "foundation"
+      ],
+      "areas": [
+        "云氏产业总部",
+        "澄园",
+        "云氏文化基金会·临川中心"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "work"
+      ],
+      "actions": [
+        "办公"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-7a49de01dd3eb9208ac2.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-7a49de01dd3eb9208ac2.webp",
+      "sha256": "150aff4a87b3bfa8a6adac6a3d0ac0eea5e583ba3818d234e0bf3b01e96f15ae",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-7a49de01dd3eb9208ac2.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-7a49de01dd3eb9208ac2.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-5781f3c9169f8b86d052",
+      "record_id": "ning-onsen-20261023-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "inn"
+      ],
+      "areas": [
+        "温泉旅馆"
+      ],
+      "action_tags": [
+        "onsen",
+        "rest"
+      ],
+      "actions": [
+        "泡汤",
+        "休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-5781f3c9169f8b86d052.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-5781f3c9169f8b86d052.webp",
+      "sha256": "8265e13aaa75c7397e9eac6e9cfc0647cc6cedc4510520af9f2238e48865d2e9",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-5781f3c9169f8b86d052.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-5781f3c9169f8b86d052.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-a468a5c4fcda0c22e0d9",
+      "record_id": "ning-onsen-20261023-v2",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "inn"
+      ],
+      "areas": [
+        "温泉旅馆"
+      ],
+      "action_tags": [
+        "daily"
+      ],
+      "actions": [
+        "日常停留"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-a468a5c4fcda0c22e0d9.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-a468a5c4fcda0c22e0d9.webp",
+      "sha256": "6fde23676c0a7c8cc9b0d4ec949cdddf74f2d7d730c48ae150da8662d4f53a6b",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-a468a5c4fcda0c22e0d9.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-a468a5c4fcda0c22e0d9.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-5ba324e0b9a2eb776337",
+      "record_id": "ning-park-20261023-v5",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "amusement_park"
+      ],
+      "areas": [
+        "游乐场"
+      ],
+      "action_tags": [
+        "walk_eat",
+        "outing"
+      ],
+      "actions": [
+        "边逛边吃",
+        "出游"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-5ba324e0b9a2eb776337.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-5ba324e0b9a2eb776337.webp",
+      "sha256": "edca97040c91ccf6661b64e8e53a90c1eeb987af8cc6c06559440045b74a3794",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-5ba324e0b9a2eb776337.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-5ba324e0b9a2eb776337.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-779432c18fc99071e06b",
+      "record_id": "ning-rug-nsfw-20261022-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-779432c18fc99071e06b.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-779432c18fc99071e06b.webp",
+      "sha256": "396b7c61df598eca0e3dfa9168dd8dfe380fe36ad538f4747d3e1945401065e9",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-779432c18fc99071e06b.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-779432c18fc99071e06b.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-9bce85fb40f634b2271c",
+      "record_id": "ning-ryokan-20261023-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "inn"
+      ],
+      "areas": [
+        "温泉旅馆"
+      ],
+      "action_tags": [
+        "drink"
+      ],
+      "actions": [
+        "喝饮品"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-9bce85fb40f634b2271c.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-9bce85fb40f634b2271c.webp",
+      "sha256": "9617787c5bac48b6188f9d7778cf647bbe3795c519540c3c61b54afe5493ca69",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-9bce85fb40f634b2271c.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-9bce85fb40f634b2271c.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-e3f95be4aa719a0c6c76",
+      "record_id": "ning-shelf-20261023-v2",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "foundation"
+      ],
+      "areas": [
+        "澄园",
+        "云氏文化基金会·临川中心"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "read"
+      ],
+      "actions": [
+        "阅读"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-e3f95be4aa719a0c6c76.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-e3f95be4aa719a0c6c76.webp",
+      "sha256": "ca4cc19676ccd854143bcd9b5d0903054df421eb0209292a0fda74f6d46b246c",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-e3f95be4aa719a0c6c76.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-e3f95be4aa719a0c6c76.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-f7bdcef1ddaadc0ffafe",
+      "record_id": "ning-shower-nsfw-20261026-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "bath",
+        "intimacy"
+      ],
+      "actions": [
+        "洗浴",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-f7bdcef1ddaadc0ffafe.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-f7bdcef1ddaadc0ffafe.webp",
+      "sha256": "7517c3e9c21f67dcd4bdc19a235f3b6ed4ddf270c63e4f34014278d234d95014",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-f7bdcef1ddaadc0ffafe.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-f7bdcef1ddaadc0ffafe.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-c814b414e05d959ce12f",
+      "record_id": "ning-stocking-nsfw-20261026-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "dress",
+        "intimacy"
+      ],
+      "actions": [
+        "换衣整理",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-c814b414e05d959ce12f.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-c814b414e05d959ce12f.webp",
+      "sha256": "bc965e10c248525fb5bea074b02598a9829d5af96ee95374077676144d94844f",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-c814b414e05d959ce12f.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-c814b414e05d959ce12f.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-112ebcae10f2b25c7b49",
+      "record_id": "ning-tie-20261022-v2",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "tie",
+        "intimacy"
+      ],
+      "actions": [
+        "整理领带",
+        "亲密互动"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-112ebcae10f2b25c7b49.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-112ebcae10f2b25c7b49.webp",
+      "sha256": "4bdc0fe13f07274081f2151e85c37bdcbe558a2e685f6078bd7d49cfe47e89ef",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-112ebcae10f2b25c7b49.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-112ebcae10f2b25c7b49.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-2b8c37fad3bee4cd8579",
+      "record_id": "ning-vanity-20261023-v2",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云岁宁卧室",
+      "action_tags": [
+        "groom"
+      ],
+      "actions": [
+        "整理仪容"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-2b8c37fad3bee4cd8579.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-2b8c37fad3bee4cd8579.webp",
+      "sha256": "f11460ad2a35bddec662a038481997366a5f28cebefe6e5ed03f14eef0626c07",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-2b8c37fad3bee4cd8579.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-2b8c37fad3bee4cd8579.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-30a4b08c5340030dd8ad",
+      "record_id": "ning-wall-nsfw-20261026-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "daily",
+        "intimacy"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-30a4b08c5340030dd8ad.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-30a4b08c5340030dd8ad.webp",
+      "sha256": "f6c4fc83206dea4cc932643f00b2ab6da655397c1c0f4dcae4a654408fe67b83",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-30a4b08c5340030dd8ad.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-30a4b08c5340030dd8ad.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-ead2d9e9e40d58cc53e2",
+      "record_id": "ning-window-coat-nsfw-20261026-v1",
+      "character_id": "ning",
+      "character": "云岁宁",
+      "area_ids": [
+        "external",
+        "headquarters"
+      ],
+      "areas": [
+        "其他城市／外部地点",
+        "云氏产业总部"
+      ],
+      "action_tags": [
+        "window_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "窗边休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-ead2d9e9e40d58cc53e2.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-ead2d9e9e40d58cc53e2.webp",
+      "sha256": "1437970d7385b5adb9e86862029cb762c67c1185a8bc45ecf2289cee686f2ad7",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-ead2d9e9e40d58cc53e2.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-ead2d9e9e40d58cc53e2.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-2aeb7a96afe3deffd4b5",
+      "record_id": "1283",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "rest"
+      ],
+      "actions": [
+        "休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-2aeb7a96afe3deffd4b5.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-2aeb7a96afe3deffd4b5.webp",
+      "sha256": "1e6ae55cef62f33b6365e70a841df0b8eb4d0e38c821ceec45b0c32e141c1aca",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-2aeb7a96afe3deffd4b5.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-2aeb7a96afe3deffd4b5.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-a3917652a538d12da1ca",
+      "record_id": "1863",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "eat"
+      ],
+      "actions": [
+        "吃东西"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-a3917652a538d12da1ca.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-a3917652a538d12da1ca.webp",
+      "sha256": "72956a6c1122fc74ba27480ce226a01c29286f851590cc3c578dd3a29dc257cf",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-a3917652a538d12da1ca.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-a3917652a538d12da1ca.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-3f657d58ec5a8eaf1d03",
+      "record_id": "2016",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "phone",
+        "rest"
+      ],
+      "actions": [
+        "看手机",
+        "休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-3f657d58ec5a8eaf1d03.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-3f657d58ec5a8eaf1d03.webp",
+      "sha256": "dd09a4cc844984335f55b4781236d1c1e7268ce4fb97efe58b2292e3b0679e4c",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-3f657d58ec5a8eaf1d03.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-3f657d58ec5a8eaf1d03.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-7d3e4a557d0273d6b870",
+      "record_id": "2319",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "eat"
+      ],
+      "actions": [
+        "吃东西"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-7d3e4a557d0273d6b870.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-7d3e4a557d0273d6b870.webp",
+      "sha256": "c2c5089ffcb9dab3f94494c0e9c43050ef2d9c4f12afb2cd8aadd310d5ad6379",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-7d3e4a557d0273d6b870.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-7d3e4a557d0273d6b870.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-22b652cefb913377c063",
+      "record_id": "sui-apple-20261023-v3",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "fruit"
+      ],
+      "actions": [
+        "削水果"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-22b652cefb913377c063.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-22b652cefb913377c063.webp",
+      "sha256": "3d68c27e82b361d85fd3d6c01b78954cfd9e1106e132653dc31b014118f8c029",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-22b652cefb913377c063.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-22b652cefb913377c063.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-64c6c3beca719d07d215",
+      "record_id": "sui-bath-nsfw-20261026-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "bath",
+        "intimacy"
+      ],
+      "actions": [
+        "洗浴",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-64c6c3beca719d07d215.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-64c6c3beca719d07d215.webp",
+      "sha256": "1e11eaa027e15a7599acd4ce72825bc4de092d0a5a5a7707f0a219515b5c2d67",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-64c6c3beca719d07d215.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-64c6c3beca719d07d215.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-90dbe69fb1a3c7cca796",
+      "record_id": "sui-bikini-20261023-v2",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "coast"
+      ],
+      "areas": [
+        "近郊沙滩"
+      ],
+      "action_tags": [
+        "beach"
+      ],
+      "actions": [
+        "海边游玩"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-90dbe69fb1a3c7cca796.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-90dbe69fb1a3c7cca796.webp",
+      "sha256": "29baff45c43fe5b4d1a09a8f90f2e769b23a198265aab9511411143c360eb8f1",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-90dbe69fb1a3c7cca796.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-90dbe69fb1a3c7cca796.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-577cb262224e50703a6f",
+      "record_id": "sui-bold-nsfw-20261022-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-577cb262224e50703a6f.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-577cb262224e50703a6f.webp",
+      "sha256": "b6b604a8ba361501a3f7cf2b8a218defebcd8f55ca91cea0339c855c1c2caaea",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-577cb262224e50703a6f.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-577cb262224e50703a6f.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-a6e5fe4e2427b15c988e",
+      "record_id": "sui-brush-20261026-v2",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "hair"
+      ],
+      "actions": [
+        "整理头发"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-a6e5fe4e2427b15c988e.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-a6e5fe4e2427b15c988e.webp",
+      "sha256": "af5bff7f9a27e1779281f0b1843d6f1c2d551c7d71de98781b0dbd2015ab8f22",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-a6e5fe4e2427b15c988e.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-a6e5fe4e2427b15c988e.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-4b70ac5a92414dc6c8e9",
+      "record_id": "sui-change-nsfw-20261026-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "dress",
+        "intimacy"
+      ],
+      "actions": [
+        "换衣整理",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-4b70ac5a92414dc6c8e9.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-4b70ac5a92414dc6c8e9.webp",
+      "sha256": "3c184759c4432c96cbd9d93ef3b19d50aae6ee7a9e54896ab612a2f3b0d21d6d",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-4b70ac5a92414dc6c8e9.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-4b70ac5a92414dc6c8e9.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-9c68103cdbdca141c763",
+      "record_id": "sui-change-nsfw-20261026-v2",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "dress",
+        "intimacy"
+      ],
+      "actions": [
+        "换衣整理",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-9c68103cdbdca141c763.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-9c68103cdbdca141c763.webp",
+      "sha256": "7947e7f57503d95eb33bbe3f0a33eb7b1680c1c06a7e8881f351bf6906b00572",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-9c68103cdbdca141c763.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-9c68103cdbdca141c763.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-94e6fc798cdcd486d922",
+      "record_id": "sui-cling-20261021-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "intimacy"
+      ],
+      "actions": [
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-94e6fc798cdcd486d922.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-94e6fc798cdcd486d922.webp",
+      "sha256": "d767c7ed8d70a24b97afa71145d24bfd24a5b4e32b8502667c53615040456c41",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-94e6fc798cdcd486d922.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-94e6fc798cdcd486d922.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-1d755e3c38ad8b3ec80b",
+      "record_id": "sui-curl-nsfw-20261022-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-1d755e3c38ad8b3ec80b.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-1d755e3c38ad8b3ec80b.webp",
+      "sha256": "ea63cb7d8c4ec2b7fdaabcbebd737ea79a19bd0bd7ff6d272b73e427f6c27690",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-1d755e3c38ad8b3ec80b.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-1d755e3c38ad8b3ec80b.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-e8c5af1a5c357ab59d23",
+      "record_id": "sui-gaze-20261024-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "toy",
+        "outing"
+      ],
+      "actions": [
+        "挑玩偶",
+        "出游"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-e8c5af1a5c357ab59d23.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-e8c5af1a5c357ab59d23.webp",
+      "sha256": "cd76a35b0918b6dd526100738070a2ec39491c493d480a74b0c68693835a71aa",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-e8c5af1a5c357ab59d23.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-e8c5af1a5c357ab59d23.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-4d1acd91c57365432937",
+      "record_id": "sui-invite-nsfw-20261026-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "daily",
+        "intimacy"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-4d1acd91c57365432937.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-4d1acd91c57365432937.webp",
+      "sha256": "60fb0539701627111cadfca4b5084b0d08aede4d56d05896c0996a7d70e3b185",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-4d1acd91c57365432937.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-4d1acd91c57365432937.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-18bfbd0753ff909ebbcf",
+      "record_id": "sui-laces-20261023-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "shoelaces"
+      ],
+      "actions": [
+        "系鞋带"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-18bfbd0753ff909ebbcf.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-18bfbd0753ff909ebbcf.webp",
+      "sha256": "945c334800fc5c1530d11c7b29a8c9bd0b19b3d2551083cfb4aa6e03bd44130d",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-18bfbd0753ff909ebbcf.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-18bfbd0753ff909ebbcf.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-ebe1a0619a85b845bedd",
+      "record_id": "sui-laces-20261023-v3",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "daily"
+      ],
+      "actions": [
+        "日常停留"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-ebe1a0619a85b845bedd.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-ebe1a0619a85b845bedd.webp",
+      "sha256": "eedf71933d09bb4a24db5f33fc7f91cb9d3cdfa96cb1551cc8fbc9e1efbd0ab1",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-ebe1a0619a85b845bedd.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-ebe1a0619a85b845bedd.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-432de72342a2a41539b3",
+      "record_id": "sui-laundry-20261022-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "laundry"
+      ],
+      "actions": [
+        "晾衣服"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-432de72342a2a41539b3.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-432de72342a2a41539b3.webp",
+      "sha256": "345db0fcec2c0c6a24344076a6f39c00cafe5b80da4fd04b02e438f81e00d749",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-432de72342a2a41539b3.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-432de72342a2a41539b3.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-b6214f9491b00078cb0e",
+      "record_id": "sui-laundry2-20261026-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "laundry"
+      ],
+      "actions": [
+        "晾衣服"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-b6214f9491b00078cb0e.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-b6214f9491b00078cb0e.webp",
+      "sha256": "7b15ee21c417979af8781beb20d3a61c2114914889d470ee917a8f626841dc47",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-b6214f9491b00078cb0e.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-b6214f9491b00078cb0e.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-f373916ef28361260d8b",
+      "record_id": "sui-library-20261023-v2",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "university",
+        "foundation"
+      ],
+      "areas": [
+        "临川大学",
+        "云氏文化基金会·临川中心"
+      ],
+      "action_tags": [
+        "read"
+      ],
+      "actions": [
+        "阅读"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-f373916ef28361260d8b.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-f373916ef28361260d8b.webp",
+      "sha256": "10c7ef2091fdd5c3ebcbfd92e5cfbf8b1c9cba4902d65f7a2e7cd511b3c80fa5",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-f373916ef28361260d8b.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-f373916ef28361260d8b.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-f6124621033cad5c8297",
+      "record_id": "sui-onsen-20261023-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "inn"
+      ],
+      "areas": [
+        "温泉旅馆"
+      ],
+      "action_tags": [
+        "onsen",
+        "rest"
+      ],
+      "actions": [
+        "泡汤",
+        "休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-f6124621033cad5c8297.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-f6124621033cad5c8297.webp",
+      "sha256": "a44d4c6e8d7b6cf2c415058a9961da500929df804c5a191ca1d3e05e61b73db9",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-f6124621033cad5c8297.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-f6124621033cad5c8297.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-c844ef244a828cf9648e",
+      "record_id": "sui-parcel-20261021-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "parcel"
+      ],
+      "actions": [
+        "拆包裹"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-c844ef244a828cf9648e.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-c844ef244a828cf9648e.webp",
+      "sha256": "3020ab8dfcc36b8238df39a6e45750f269ec371e90cc9a3b1aec1c535f9bfc6c",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-c844ef244a828cf9648e.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-c844ef244a828cf9648e.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-b7a76811264e60086366",
+      "record_id": "sui-park-20261023-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "amusement_park"
+      ],
+      "areas": [
+        "游乐场"
+      ],
+      "action_tags": [
+        "toy",
+        "outing"
+      ],
+      "actions": [
+        "挑玩偶",
+        "出游"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-b7a76811264e60086366.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-b7a76811264e60086366.webp",
+      "sha256": "c042f48623715fb8bf36404e283163c38011982f612cf2226308a1eb72c4a4f6",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-b7a76811264e60086366.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-b7a76811264e60086366.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-0ae84a9a340d67eff8d3",
+      "record_id": "sui-park-20261023-v3",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "amusement_park"
+      ],
+      "areas": [
+        "游乐场"
+      ],
+      "action_tags": [
+        "outing"
+      ],
+      "actions": [
+        "出游"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-0ae84a9a340d67eff8d3.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-0ae84a9a340d67eff8d3.webp",
+      "sha256": "4920e3a35a2e9c450ddd01f887ce1dea9068442f634810efdf8eb393551fc2af",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-0ae84a9a340d67eff8d3.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-0ae84a9a340d67eff8d3.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-abe7cf07abc88ef53431",
+      "record_id": "sui-pillow-20261022-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-abe7cf07abc88ef53431.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-abe7cf07abc88ef53431.webp",
+      "sha256": "883bf3e77905d20f8ae6ef2f0b9e83f59e57607e550050eb63154f1de3f480a0",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-abe7cf07abc88ef53431.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-abe7cf07abc88ef53431.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-586e6a019d0af7d6021f",
+      "record_id": "sui-ryokan-20261023-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "inn"
+      ],
+      "areas": [
+        "温泉旅馆"
+      ],
+      "action_tags": [
+        "daily"
+      ],
+      "actions": [
+        "日常停留"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-586e6a019d0af7d6021f.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-586e6a019d0af7d6021f.webp",
+      "sha256": "744684919fe165c670667dfd6bc1f3503cde452c718a9a04901b500b7bd825eb",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-586e6a019d0af7d6021f.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-586e6a019d0af7d6021f.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-957902350b25195a2949",
+      "record_id": "sui-shell-20261023-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "coast"
+      ],
+      "areas": [
+        "近郊沙滩"
+      ],
+      "action_tags": [
+        "shell"
+      ],
+      "actions": [
+        "捡贝壳"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-957902350b25195a2949.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-957902350b25195a2949.webp",
+      "sha256": "39a967368869c4043cdb6206dd470e64f052c7d465dfd3ea47836adc391caab1",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-957902350b25195a2949.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-957902350b25195a2949.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-a408cef40391211a6618",
+      "record_id": "sui-sleeve-nsfw-20261022-v2",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-a408cef40391211a6618.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-a408cef40391211a6618.webp",
+      "sha256": "8006674ea4aa9eb925092c3380bda28c4f4d93712249ac275ad183ab27ce1d3a",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-a408cef40391211a6618.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-a408cef40391211a6618.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-451754f183d2f40d18e3",
+      "record_id": "sui-sneak-20261022-v2",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "eat"
+      ],
+      "actions": [
+        "吃东西"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-451754f183d2f40d18e3.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-451754f183d2f40d18e3.webp",
+      "sha256": "125d04e4cc4083f663a75f387082d62b5cf86a72e1feafa5245e9f59a7cf6cd1",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-451754f183d2f40d18e3.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-451754f183d2f40d18e3.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-6f0b78e38efecc739e65",
+      "record_id": "sui-sofa-20261021-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-6f0b78e38efecc739e65.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-6f0b78e38efecc739e65.webp",
+      "sha256": "f1a7bccba5905f76de065ba99c05787bf2a95ab7cfd825a8301cec2ed2fcbd56",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-6f0b78e38efecc739e65.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-6f0b78e38efecc739e65.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-a95f55371a13fdc98566",
+      "record_id": "sui-sofa-20261021-v2",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-a95f55371a13fdc98566.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-a95f55371a13fdc98566.webp",
+      "sha256": "a97b53c2226c398bab92269d041218683d2464508edfbeb2112e22e8be3f7e32",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-a95f55371a13fdc98566.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-a95f55371a13fdc98566.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-5f48b4af639a259e91e9",
+      "record_id": "sui-store-20261023-v2",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "external"
+      ],
+      "areas": [
+        "其他城市／外部地点"
+      ],
+      "action_tags": [
+        "daily"
+      ],
+      "actions": [
+        "日常停留"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-5f48b4af639a259e91e9.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-5f48b4af639a259e91e9.webp",
+      "sha256": "03f1a555d21c67437743b28c853eafc7b2aa831c6faeacebcbcbcb9e62cddd54",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-5f48b4af639a259e91e9.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-5f48b4af639a259e91e9.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-eda419b059d51c1bc74b",
+      "record_id": "sui-stretch-20261023-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "stretch",
+        "rest"
+      ],
+      "actions": [
+        "伸懒腰",
+        "休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-eda419b059d51c1bc74b.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-eda419b059d51c1bc74b.webp",
+      "sha256": "6b6a73a095d2e5cb073df7ded9532bba19a4d54ff497d7306924693de65e7e79",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-eda419b059d51c1bc74b.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-eda419b059d51c1bc74b.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-d927b4398c5d0b8102e1",
+      "record_id": "sui-table-nsfw-20261022-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "drink",
+        "intimacy"
+      ],
+      "actions": [
+        "喝饮品",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-d927b4398c5d0b8102e1.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-d927b4398c5d0b8102e1.webp",
+      "sha256": "a7a67e7685249894c3cbf350c3c42087c1b234a47d2f1c7aa912778f4ffd8bb9",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-d927b4398c5d0b8102e1.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-d927b4398c5d0b8102e1.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-38a6fc75d2a5d5cb8b6b",
+      "record_id": "sui-unbutton-nsfw-20261022-v2",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "intimacy"
+      ],
+      "actions": [
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-38a6fc75d2a5d5cb8b6b.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-38a6fc75d2a5d5cb8b6b.webp",
+      "sha256": "751a13c84851c2e675cc0a5a05d944f5e67e114920648642ec923a154e868ae8",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-38a6fc75d2a5d5cb8b6b.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-38a6fc75d2a5d5cb8b6b.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-df503650dce328e16ae5",
+      "record_id": "sui-wake2-20261026-v1",
+      "character_id": "sui",
+      "character": "云穗",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云穗卧室",
+      "action_tags": [
+        "daily",
+        "rest"
+      ],
+      "actions": [
+        "日常停留",
+        "休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-df503650dce328e16ae5.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-df503650dce328e16ae5.webp",
+      "sha256": "2ad6d6725bcdb042374ff7e42713ac08c53fc435019e8504a9bcf076f0914a90",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-df503650dce328e16ae5.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-df503650dce328e16ae5.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-04c2a9eb7bfcf3880fce",
+      "record_id": "1216",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "technology"
+      ],
+      "areas": [
+        "云氏交互技术中心"
+      ],
+      "action_tags": [
+        "cable",
+        "computer"
+      ],
+      "actions": [
+        "整理线缆",
+        "使用电脑"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-04c2a9eb7bfcf3880fce.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-04c2a9eb7bfcf3880fce.webp",
+      "sha256": "6d41269dcbbeba8b14347a0fdab686ad711e0519c625d7db580568447cf7a991",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-04c2a9eb7bfcf3880fce.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-04c2a9eb7bfcf3880fce.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-11a8c192847976cfe948",
+      "record_id": "1461",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "technology"
+      ],
+      "areas": [
+        "云氏交互技术中心"
+      ],
+      "action_tags": [
+        "computer"
+      ],
+      "actions": [
+        "使用电脑"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-11a8c192847976cfe948.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-11a8c192847976cfe948.webp",
+      "sha256": "8ee4547fe9cc97adadfa68992d1dc3d632001c1067012d60b117bcf1ede08f83",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-11a8c192847976cfe948.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-11a8c192847976cfe948.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-bd14a71e55140d4ab973",
+      "record_id": "1819",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "technology"
+      ],
+      "areas": [
+        "云氏交互技术中心"
+      ],
+      "action_tags": [
+        "drink",
+        "computer"
+      ],
+      "actions": [
+        "喝饮品",
+        "使用电脑"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-bd14a71e55140d4ab973.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-bd14a71e55140d4ab973.webp",
+      "sha256": "4765812c35a3a1bd99e7c45053b337286d99b8d72ace8370ac300a47afe2b402",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-bd14a71e55140d4ab973.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-bd14a71e55140d4ab973.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-733dd8b62e31f79902e5",
+      "record_id": "xian-above-nsfw-20261025-v2",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-733dd8b62e31f79902e5.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-733dd8b62e31f79902e5.webp",
+      "sha256": "4199861a0966761a7e9bb5fc41e56abab6ce1d2d3653fb0fdf7ea30c85fd96ac",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-733dd8b62e31f79902e5.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-733dd8b62e31f79902e5.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-bc1522ee020672179320",
+      "record_id": "xian-aftermath-nsfw-20261026-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-bc1522ee020672179320.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-bc1522ee020672179320.webp",
+      "sha256": "7b00c2aded0c9d5b4b3fff310d93ba2bfdd4bd52199268a994e61eee6169ce57",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-bc1522ee020672179320.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-bc1522ee020672179320.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-52658eaf2f9d4a731db0",
+      "record_id": "xian-asleep-nsfw-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "sleep",
+        "intimacy",
+        "computer"
+      ],
+      "actions": [
+        "打盹",
+        "亲密互动",
+        "使用电脑"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-52658eaf2f9d4a731db0.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-52658eaf2f9d4a731db0.webp",
+      "sha256": "c436e92a412c652707958777bcbddef7a21467a6c1c2bf843cfadc1766641043",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-52658eaf2f9d4a731db0.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-52658eaf2f9d4a731db0.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-77c3485b33d9294c5a1c",
+      "record_id": "xian-beach-20261023-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "coast"
+      ],
+      "areas": [
+        "近郊沙滩"
+      ],
+      "action_tags": [
+        "beach"
+      ],
+      "actions": [
+        "海边游玩"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-77c3485b33d9294c5a1c.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-77c3485b33d9294c5a1c.webp",
+      "sha256": "20d7878c23b563d891306a660b3c76ac067f4782c26e1b60657a39bd6b258c86",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-77c3485b33d9294c5a1c.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-77c3485b33d9294c5a1c.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-49e68be6e375646ed8e4",
+      "record_id": "xian-bench-nsfw-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "seated_rest",
+        "intimacy",
+        "computer"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动",
+        "使用电脑"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-49e68be6e375646ed8e4.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-49e68be6e375646ed8e4.webp",
+      "sha256": "5c4bb6f419f761f6483140c98fa6de3cb23d66f86f85191475c264c718263916",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-49e68be6e375646ed8e4.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-49e68be6e375646ed8e4.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-f34bb895cf232bb3dbc1",
+      "record_id": "xian-bikini-20261023-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "coast"
+      ],
+      "areas": [
+        "近郊沙滩"
+      ],
+      "action_tags": [
+        "daily"
+      ],
+      "actions": [
+        "日常停留"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-f34bb895cf232bb3dbc1.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-f34bb895cf232bb3dbc1.webp",
+      "sha256": "f4c931d57537d61d75ddcdf047440f78ce1f03e44606d9bf9397dcbd306cb881",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-f34bb895cf232bb3dbc1.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-f34bb895cf232bb3dbc1.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-4a5bf0889c5e9c7b6333",
+      "record_id": "xian-chair-20261021-v2",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "daily",
+        "intimacy"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-4a5bf0889c5e9c7b6333.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-4a5bf0889c5e9c7b6333.webp",
+      "sha256": "8e8c8f1e19e5e9d3e3eae1a546c5631cfe512f49969751629f0d8dd6711d75e5",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-4a5bf0889c5e9c7b6333.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-4a5bf0889c5e9c7b6333.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-ee90776f74b64fc02f59",
+      "record_id": "xian-choker-nsfw-20261023-v3",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "computer"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "使用电脑"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-ee90776f74b64fc02f59.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-ee90776f74b64fc02f59.webp",
+      "sha256": "670c13975e84197d4a715ccc2314b6e1f1bb724fe3ea6190572b4749beea6ed3",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-ee90776f74b64fc02f59.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-ee90776f74b64fc02f59.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-ed35b3217cbab97be6fe",
+      "record_id": "xian-closeup-nsfw-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "intimacy"
+      ],
+      "actions": [
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-ed35b3217cbab97be6fe.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-ed35b3217cbab97be6fe.webp",
+      "sha256": "f612ea62628d595ef211496bee300b916b678b562079588bfadd1daf3b7ca2ff",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-ed35b3217cbab97be6fe.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-ed35b3217cbab97be6fe.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-85dbd2cea1be34683cf2",
+      "record_id": "xian-entry-nsfw-20261022-v3",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "door",
+        "intimacy"
+      ],
+      "actions": [
+        "门边停留",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-85dbd2cea1be34683cf2.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-85dbd2cea1be34683cf2.webp",
+      "sha256": "53dba67dc80de0c60ee2d75206d55e99caf4a980136a5c9b6d7949851d3074b9",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-85dbd2cea1be34683cf2.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-85dbd2cea1be34683cf2.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-52a64f33b323b8e5f6b2",
+      "record_id": "xian-gaze-20261024-v2",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "door"
+      ],
+      "actions": [
+        "门边停留"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-52a64f33b323b8e5f6b2.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-52a64f33b323b8e5f6b2.webp",
+      "sha256": "b5ebcdbff2365d90f07ccb7c50566b54caf9b2674a56fe1337b996df0c513f89",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-52a64f33b323b8e5f6b2.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-52a64f33b323b8e5f6b2.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-270edf37d0e7c96ac1ce",
+      "record_id": "xian-hair-nsfw-20261023-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "hair",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "整理头发",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-270edf37d0e7c96ac1ce.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-270edf37d0e7c96ac1ce.webp",
+      "sha256": "84f3976de80eded0a8f8789efb3fd0b5a8cf94acaafb54abfa24aa92985525c1",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-270edf37d0e7c96ac1ce.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-270edf37d0e7c96ac1ce.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-23cb2dea2bdcbceec818",
+      "record_id": "xian-hide-nsfw-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "seated_rest",
+        "intimacy",
+        "computer"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动",
+        "使用电脑"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-23cb2dea2bdcbceec818.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-23cb2dea2bdcbceec818.webp",
+      "sha256": "a01a81e8ab7737832d82920b4239315a16bf150ed7029eb93c809bf34782f50c",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-23cb2dea2bdcbceec818.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-23cb2dea2bdcbceec818.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-4ca5af6c5ddd08509af7",
+      "record_id": "xian-invite-nsfw-20261026-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "rest",
+        "intimacy"
+      ],
+      "actions": [
+        "休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-4ca5af6c5ddd08509af7.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-4ca5af6c5ddd08509af7.webp",
+      "sha256": "b01c03cc18fe28c744365ede4d546bda30ff0bd9b0fde065d8c4a83add0f93b7",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-4ca5af6c5ddd08509af7.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-4ca5af6c5ddd08509af7.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-ff86d6591fe6936ceb72",
+      "record_id": "xian-keycap-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "device"
+      ],
+      "actions": [
+        "摆弄设备"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-ff86d6591fe6936ceb72.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-ff86d6591fe6936ceb72.webp",
+      "sha256": "c32b859e1c95ce8dfa14ef8074e3291acb2d69599d3bd8df0e578c58ef918406",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-ff86d6591fe6936ceb72.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-ff86d6591fe6936ceb72.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-bcb2e5d2de7b72084b42",
+      "record_id": "xian-lazy-nsfw-20261026-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-bcb2e5d2de7b72084b42.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-bcb2e5d2de7b72084b42.webp",
+      "sha256": "d8e5118881a7a3b128a6f5a5f1fec71b8236d585139f3779286bc83b0d1afb14",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-bcb2e5d2de7b72084b42.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-bcb2e5d2de7b72084b42.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-f8db6b89b5678ed9d607",
+      "record_id": "xian-lazy-nsfw-20261026-v2",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home",
+        "inn"
+      ],
+      "areas": [
+        "澄园",
+        "温泉旅馆"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "rest"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "休息"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-f8db6b89b5678ed9d607.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-f8db6b89b5678ed9d607.webp",
+      "sha256": "13a385ddcf7a3203a623e4a2393e2d94dd899aa892fb89a54bb2231b9665a6f5",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-f8db6b89b5678ed9d607.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-f8db6b89b5678ed9d607.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-ce0cd0e2c530cbd06769",
+      "record_id": "xian-living-20261021-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "game"
+      ],
+      "actions": [
+        "玩游戏"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-ce0cd0e2c530cbd06769.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-ce0cd0e2c530cbd06769.webp",
+      "sha256": "f8c4218f05a9f7b7faff470fae8eeede0a0948176d960497fb624b7399d10a26",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-ce0cd0e2c530cbd06769.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-ce0cd0e2c530cbd06769.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-4d85560f0f0ba4b152ba",
+      "record_id": "xian-noodle-20261023-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "cook"
+      ],
+      "actions": [
+        "做饭"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-4d85560f0f0ba4b152ba.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-4d85560f0f0ba4b152ba.webp",
+      "sha256": "7df8ad26c0a155ee3f85f161dfb192bd3ff6e2451661b046b48e1d507c1b501f",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-4d85560f0f0ba4b152ba.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-4d85560f0f0ba4b152ba.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-265b47864be3117908f6",
+      "record_id": "xian-ots-nsfw-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "daily",
+        "intimacy"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-265b47864be3117908f6.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-265b47864be3117908f6.webp",
+      "sha256": "b7badc7b6d509d285242ef9f2142a1f85152608224552abd97b2490dcf95a26a",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-265b47864be3117908f6.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-265b47864be3117908f6.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-81441b24ee4a8db620c9",
+      "record_id": "xian-panel-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "device"
+      ],
+      "actions": [
+        "摆弄设备"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-81441b24ee4a8db620c9.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-81441b24ee4a8db620c9.webp",
+      "sha256": "3a56dcf7147cd824b297d482c57a2c5ca665f377dd7f3acf33acb168dde61ef4",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-81441b24ee4a8db620c9.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-81441b24ee4a8db620c9.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-9019e6cebf29d3b72edf",
+      "record_id": "xian-park-20261023-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "amusement_park"
+      ],
+      "areas": [
+        "游乐场"
+      ],
+      "action_tags": [
+        "outing"
+      ],
+      "actions": [
+        "出游"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-9019e6cebf29d3b72edf.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-9019e6cebf29d3b72edf.webp",
+      "sha256": "c1fcd03a5c47f71ce81d9b546c8fafdd410b946d93381641f3f5b92ec4fc2595",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-9019e6cebf29d3b72edf.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-9019e6cebf29d3b72edf.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-ce8283991b83a960e431",
+      "record_id": "xian-phone-nsfw-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "phone",
+        "intimacy",
+        "computer"
+      ],
+      "actions": [
+        "看手机",
+        "亲密互动",
+        "使用电脑"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-ce8283991b83a960e431.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-ce8283991b83a960e431.webp",
+      "sha256": "7f8744fcf578297a875eeaabc01ec6e6f42e68821e150b5a57ee09d70b5a4a7d",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-ce8283991b83a960e431.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-ce8283991b83a960e431.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-cfaf0a53704621df99c3",
+      "record_id": "xian-rack-20261021-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "technology"
+      ],
+      "areas": [
+        "云氏交互技术中心"
+      ],
+      "action_tags": [
+        "cable"
+      ],
+      "actions": [
+        "整理线缆"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-cfaf0a53704621df99c3.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-cfaf0a53704621df99c3.webp",
+      "sha256": "c8bd62525ca5eb00db33e188815460c7e6dd5ecea1978a65537912b5f7daa470",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-cfaf0a53704621df99c3.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-cfaf0a53704621df99c3.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-12365d66b3666ac753cb",
+      "record_id": "xian-reach-nsfw-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "daily",
+        "intimacy",
+        "computer"
+      ],
+      "actions": [
+        "日常停留",
+        "亲密互动",
+        "使用电脑"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-12365d66b3666ac753cb.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-12365d66b3666ac753cb.webp",
+      "sha256": "7f43fde921dfc55c6e5b21956a564da65dfced57402971845882b7af4ccc2e9c",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-12365d66b3666ac753cb.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-12365d66b3666ac753cb.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-2287b6c16bf01479636e",
+      "record_id": "xian-repair-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "device"
+      ],
+      "actions": [
+        "摆弄设备"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-2287b6c16bf01479636e.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-2287b6c16bf01479636e.webp",
+      "sha256": "f495efd6b2366c23228c7a061c3994caf335549a0b0388b648164e8aee7072a2",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-2287b6c16bf01479636e.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-2287b6c16bf01479636e.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-23b483a61f526cf9186f",
+      "record_id": "xian-rooftop-20261026-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "external",
+        "headquarters"
+      ],
+      "areas": [
+        "其他城市／外部地点",
+        "云氏产业总部"
+      ],
+      "action_tags": [
+        "window_rest"
+      ],
+      "actions": [
+        "窗边休息"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-23b483a61f526cf9186f.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-23b483a61f526cf9186f.webp",
+      "sha256": "28af3fe2aa706d2505458362af06b318806f0fc2fca46b55882cbb9e754581fc",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-23b483a61f526cf9186f.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-23b483a61f526cf9186f.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-4a07fdca360413d3dff6",
+      "record_id": "xian-sea-20261023-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "coast"
+      ],
+      "areas": [
+        "近郊沙滩"
+      ],
+      "action_tags": [
+        "beach"
+      ],
+      "actions": [
+        "海边游玩"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-4a07fdca360413d3dff6.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-4a07fdca360413d3dff6.webp",
+      "sha256": "b36df378a32697a6fac4fb484cd5187a91a0e00bd1ee4b38a0dc78506a4b59b4",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-4a07fdca360413d3dff6.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-4a07fdca360413d3dff6.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-b6d7a58b10c0531f6bf9",
+      "record_id": "xian-shower-nsfw-20261026-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "bath",
+        "intimacy"
+      ],
+      "actions": [
+        "洗浴",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-b6d7a58b10c0531f6bf9.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-b6d7a58b10c0531f6bf9.webp",
+      "sha256": "fe7de8034f5f9e89fb95ac216d6a489ec0e35aef383b45ef6264819cbf6e09c5",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-b6d7a58b10c0531f6bf9.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-b6d7a58b10c0531f6bf9.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-87b96ce5125f829a9021",
+      "record_id": "xian-sill-20261022-v3",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "device"
+      ],
+      "actions": [
+        "摆弄设备"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-87b96ce5125f829a9021.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-87b96ce5125f829a9021.webp",
+      "sha256": "5997b1f233d493c0270b8744d12b12b495e52002389f36de0e160549528e3e62",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-87b96ce5125f829a9021.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-87b96ce5125f829a9021.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-22bedb01cb810fec4b78",
+      "record_id": "xian-sofa-nsfw-20261026-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "澄园公共区域",
+      "action_tags": [
+        "seated_rest",
+        "intimacy"
+      ],
+      "actions": [
+        "坐着休息",
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-22bedb01cb810fec4b78.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-22bedb01cb810fec4b78.webp",
+      "sha256": "932f192681419d3fae00eac052b83a892a24a3a55daac69b32b5f8010f046f89",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-22bedb01cb810fec4b78.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-22bedb01cb810fec4b78.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-3639e79dd1dc7bd67322",
+      "record_id": "xian-store-20261022-v2",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "external"
+      ],
+      "areas": [
+        "其他城市／外部地点"
+      ],
+      "action_tags": [
+        "daily"
+      ],
+      "actions": [
+        "日常停留"
+      ],
+      "content_type": "SFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-3639e79dd1dc7bd67322.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-3639e79dd1dc7bd67322.webp",
+      "sha256": "5ae885c2729223d8c9652e5d4a3a5ad8a9965b6a4b3d585cf7a503902ffcc7d5",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-3639e79dd1dc7bd67322.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-3639e79dd1dc7bd67322.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    },
+    {
+      "asset_id": "nai-6c05fff43bb5064d9671",
+      "record_id": "xian-wrist-nsfw-20261022-v1",
+      "character_id": "xian",
+      "character": "云弦",
+      "area_ids": [
+        "home"
+      ],
+      "areas": [
+        "澄园"
+      ],
+      "home_use": "云弦卧室",
+      "action_tags": [
+        "intimacy"
+      ],
+      "actions": [
+        "亲密互动"
+      ],
+      "content_type": "NSFW",
+      "image_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/images/nai-6c05fff43bb5064d9671.webp",
+      "thumbnail_url": "https://raw.githubusercontent.com/Asriel134/qianling-assets/892580ef62f82886f222f5b110645a1cad4b5f60/illustrations/thumbnails/nai-6c05fff43bb5064d9671.webp",
+      "sha256": "48410becabedacead64b5882395160671b96817aa1e1a6d276856d2848acd064",
+      "upstream": {
+        "repository": "Asriel134/qianling-assets",
+        "commit": "892580ef62f82886f222f5b110645a1cad4b5f60",
+        "path": "illustrations/images/nai-6c05fff43bb5064d9671.webp",
+        "thumbnail_path": "illustrations/thumbnails/nai-6c05fff43bb5064d9671.webp"
+      },
+      "status": "approved",
+      "confirmation_ref": "user-final-144-20261027"
+    }
+  ],
+  "matching_policy": "角色/内容类别一致；行为与区域各自为OR候选；语义对应段落后选白名单ID，无适图跳过；同类优先轮换少用图。图库好感门槛不自动成为正文门槛。"
+}

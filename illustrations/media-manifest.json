@@ -2889,32 +2889,6 @@
       "fallbackAssetId": "image-unavailable"
     },
     {
-      "id": "nai-e3f29b221045e70a6764",
-      "kind": "image",
-      "source": {
-        "type": "local",
-        "path": "images/nai-e3f29b221045e70a6764.webp"
-      },
-      "bytes": 797318,
-      "sha256": "0fe3fdbf6b65cc1dacc2fa77000b857c51d2b6269aaf232ad32974cae993aad6",
-      "preload": "on-demand",
-      "lifetime": "card",
-      "fallbackAssetId": "image-unavailable"
-    },
-    {
-      "id": "nai-e3f29b221045e70a6764-thumb",
-      "kind": "image",
-      "source": {
-        "type": "local",
-        "path": "thumbnails/nai-e3f29b221045e70a6764.webp"
-      },
-      "bytes": 20814,
-      "sha256": "88cd1b613d27abf43630674113c5125552590975e17e15f3b5fe146331f86a32",
-      "preload": "lazy",
-      "lifetime": "card",
-      "fallbackAssetId": "image-unavailable"
-    },
-    {
       "id": "nai-733dd8b62e31f79902e5",
       "kind": "image",
       "source": {
